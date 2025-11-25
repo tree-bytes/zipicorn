@@ -1,0 +1,4 @@
+﻿  program.c
+C:\Users\mathew\source\repos\Zipicorn\Zipicorn\program.c(15,23): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mathew\source\repos\Zipicorn\Zipicorn\program.c(18,9): warning C4013: 'exit' undefined; assuming extern returning int
+  Zipicorn.vcxproj -> C:\Users\mathew\source\repos\Zipicorn\x64\Debug\Zipicorn.exe
