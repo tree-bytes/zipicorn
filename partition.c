@@ -10,15 +10,15 @@
 
 void partitionZipFile(char* zip_file, char* destination, const size_t chunk_size)
 {
-	struct stat buffer;
+	struct _stat64 buffer;
 
 	//if stat() returns -1, then our file doesn't exist.
-	if (stat(zip_file, &buffer) == -1)
+	if (_stat64(zip_file, &buffer) == -1)
 	{
 		printf("The zip file does not exist!");
 		return;
 	}
-	if (stat(destination, &buffer) == -1)
+	if (_stat64(destination, &buffer) == -1)
 	{
 		printf("The destination path does not exist!");
 		return;

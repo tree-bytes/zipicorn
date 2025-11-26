@@ -1,0 +1,18 @@
+﻿  merge.c
+  partition.c
+C:\Users\mathew\source\repos\Zipicorn\Zipicorn\merge.c(34,35): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+      C:\Users\mathew\source\repos\Zipicorn\Zipicorn\merge.c(34,35):
+      consider using '%zd' in the format string
+  
+C:\Users\mathew\source\repos\Zipicorn\Zipicorn\merge.c(46,36): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+      C:\Users\mathew\source\repos\Zipicorn\Zipicorn\merge.c(46,36):
+      consider using '%zd' in the format string
+  
+  program.c
+C:\Users\mathew\source\repos\Zipicorn\Zipicorn\program.c(15,23): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mathew\source\repos\Zipicorn\Zipicorn\program.c(18,9): warning C4013: 'exit' undefined; assuming extern returning int
+  Generating code
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 16 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Zipicorn.vcxproj -> C:\Users\mathew\source\repos\Zipicorn\x64\Release\Zipicorn.exe
